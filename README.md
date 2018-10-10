@@ -1,5 +1,16 @@
-# 1.6
-#assignment 6
+# Create the below pattern using nested for loop in Python.
+'''
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+'''
+
 for i in range(1,5):
     for j in range(0,i):
         print("*", end='')
